@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Image Divider</title>
+    <style>
+      img {margin-top:5px; margin-bottom:0px; margin-left:5px}
+      hr {border-width:3px;}
+    </style>
+  </head>
+  <body>
+    
+    <input type="file" accept="image/*" id="img" > <br>
+    <span>Page Layout: </span>
+    <input type="number" id="pagesWidth" >
+    <span> X </span>
+    <input type="number" id="pagesHeight" >
+    <br>
+    <button id="imageButton">Split Image</button>
+    <div id="log"> </div>
+    <div id="output"> </div>
+    <div id="dpi" style="height: 1in; width: 1in; left: 100%; position: fixed; top: 100%;"></div>
+    <script async src="main.js"></script>
+  </body>
+</html>

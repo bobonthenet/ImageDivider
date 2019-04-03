@@ -1,0 +1,27 @@
+{
+  "name": "imagedivider",
+  "version": "1.0.0",
+  "description": "For dividing a single large image into smaller images for printing.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobonthenet/ImageDivider.git"
+  },
+  "author": "Bobby B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobonthenet/ImageDivider/issues"
+  },
+  "homepage": "https://github.com/bobonthenet/ImageDivider#readme",
+  "dependencies": {
+    "image-manipulation": "0.0.4"
+  },
+  "devDependencies": {
+    "jimp": "^0.6.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
